@@ -14,8 +14,8 @@ KERNEL_MODELS = [  # kernel models by purging order
 
 def main() -> None:
     if len(sys.argv) < 3:
-        print('Usage: python {} <kernel_version> <kernel_abi>[...]'
-              .format(sys.argv[0]))
+        print(('usage: python {0} <kernel_version> <kernel_abi>[...]\n\n' +
+               'example: python {0} 5.4.0 44 45 46').format(sys.argv[0]))
     else:
         kernel_version = sys.argv[1]
         kernel_abi_list = sys.argv[2:]
