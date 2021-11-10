@@ -8,7 +8,7 @@ KERNEL_MODELS = [  # kernel models by purging order
     'linux-image-{}-{}-generic',
     'linux-modules-{}-{}-generic',
     'linux-headers-{}-{}-generic',
-    'linux-headers-{}-{}'
+    'linux-hwe-*-headers-{}-{}'
 ]
 
 
